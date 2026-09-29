@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RaccoonCorp | Studio de Développement d'Applications Mobiles</title>
+  <meta name="description" content="Site officiel et portail développeur de RaccoonCorp. Découvrez nos applications mobiles Android, nos conditions d'utilisation et notre politique de confidentialité." />
+  
+  <!-- Google Play Console / Google Search Console Verification Meta Tag -->
+  <!-- Remplacez le contenu ci-dessous par votre code si Google vous le demande -->
+  <!-- <meta name="google-site-verification" content="VOTRE_CODE_GOOGLE_VERIFICATION_ICI" /> -->
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- En-tête / Navigation -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand-link">
+        <img src="assets/logo.svg" alt="Logo RaccoonCorp" class="brand-logo" />
+        <span>RaccoonCorp</span>
+        <span class="brand-badge">Dev</span>
+      </a>
+
+      <button class="mobile-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
+        </svg>
+      </button>
+
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link active">Accueil</a>
+        <a href="#apps" class="nav-link">Nos Applications</a>
+        <a href="#about" class="nav-link">À propos</a>
+        <a href="#contact" class="nav-link">Contact & Support</a>
+        <a href="terms.html" class="nav-link">Conditions (CGU)</a>
+        <a href="privacy.html" class="nav-link">Confidentialité</a>
+        
+        <div class="lang-switch" title="Changer de langue">
+          <a href="index.html" class="active">FR</a>
+          <a href="en/index.html">EN</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section Héro -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-tag">
+          <span class="dot"></span>
+          Développeur Google Play Officiel
+        </div>
+        <h1>
+          Conception d'applications mobiles <br />
+          <span class="gradient">intuitives, performantes & fiables</span>
+        </h1>
+        <p class="lead">
+          Bienvenue sur le site officiel de <strong>RaccoonCorp</strong>. Nous développons des applications mobiles et outils logiciels pensés pour simplifier et enrichir votre quotidien sur Android.
+        </p>
+        <div class="hero-cta">
+          <a href="#apps" class="btn btn-primary">Découvrir nos applications</a>
+          <a href="#contact" class="btn btn-outline">Nous contacter</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bannière de vérification / Transparence -->
+    <section class="container" style="padding-top: 0; padding-bottom: 2rem;">
+      <div class="verification-box">
+        <div class="verification-content">
+          <h3>Portail Développeur & Transparence</h3>
+          <p>
+            Ce site officiel atteste de l'authenticité de nos créations publiées sur le Google Play Store et met à votre disposition l'ensemble de nos engagements juridiques et techniques.
+          </p>
+        </div>
+        <div>
+          <a href="privacy.html" class="btn btn-outline" style="white-space: nowrap;">Politique de Confidentialité</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Applications -->
+    <section id="apps" style="background-color: var(--bg-card-alt); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+      <div class="container">
+        <div class="section-head">
+          <h2>Nos Applications</h2>
+          <p>Explorez notre catalogue de solutions mobiles disponibles ou prochainement publiées sur Google Play.</p>
+        </div>
+
+        <div class="grid-2">
+          <!-- Carte Application 1 (Exemple adaptable) -->
+          <div class="card app-card">
+            <div class="app-card-header">
+              <div class="app-icon">
+                <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <div class="app-meta">
+                <h3>Application Principale</h3>
+                <span class="app-badge badge-dev">En cours de déploiement</span>
+              </div>
+            </div>
+            <p>
+              Application mobile intuitive axée sur la simplicité d'utilisation, l'optimisation des performances et le respect strict de la vie privée des utilisateurs.
+            </p>
+            <div class="app-footer">
+              <a href="privacy.html" class="nav-link" style="font-size: 0.85rem;">Politique de confidentialité</a>
+              <span>•</span>
+              <a href="terms.html" class="nav-link" style="font-size: 0.85rem;">Conditions d'utilisation</a>
+            </div>
+          </div>
+
+          <!-- Carte Application 2 (Outils & Utilitaires) -->
+          <div class="card app-card">
+            <div class="app-card-header">
+              <div class="app-icon" style="background: linear-gradient(135deg, #8b5cf6, #ec4899);">
+                <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <div class="app-meta">
+                <h3>Outils & Utilitaires RaccoonCorp</h3>
+                <span class="app-badge badge-live">Projets en développement</span>
+              </div>
+            </div>
+            <p>
+              Une suite d'outils légers, ergonomiques et sans collecte superflue de données, conçus selon les meilleures pratiques du développement moderne Android.
+            </p>
+            <div class="app-footer">
+              <a href="privacy.html" class="nav-link" style="font-size: 0.85rem;">Politique de confidentialité</a>
+              <span>•</span>
+              <a href="#contact" class="nav-link" style="font-size: 0.85rem;">Support</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section À Propos -->
+    <section id="about">
+      <div class="container">
+        <div class="section-head">
+          <h2>À propos de RaccoonCorp</h2>
+          <p>Des logiciels développés avec passion, exigence et intégrité.</p>
+        </div>
+
+        <div class="grid-3">
+          <div class="card">
+            <div class="card-icon">🔒</div>
+            <h3>Protection des Données</h3>
+            <p>
+              Nous minimisons au strict nécessaire les autorisations demandées et ne revendons jamais vos informations personnelles à des tiers.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">⚡</div>
+            <h3>Performance & Qualité</h3>
+            <p>
+              Nos applications sont conçues pour être fluides, économes en ressources et compatibles avec une large gamme d'appareils Android.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">🤝</div>
+            <h3>Support & Transparence</h3>
+            <p>
+              Une équipe à l'écoute des utilisateurs pour résoudre les anomalies, répondre aux questions et faire évoluer les fonctionnalités.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Contact & Support -->
+    <section id="contact" style="background-color: var(--bg-card-alt); border-top: 1px solid var(--border-color);">
+      <div class="container">
+        <div class="section-head">
+          <h2>Assistance & Contact</h2>
+          <p>Une question concernant nos applications, un signalement de bug ou une demande relative à vos données personnelles ?</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <div class="card-icon" style="margin: 0 auto 1rem;">✉️</div>
+            <h4>Email de Contact</h4>
+            <p style="margin-bottom: 0.75rem; color: var(--text-muted); font-size: 0.9rem;">
+              Support utilisateur et demandes générales
+            </p>
+            <!-- Remplacez par votre adresse email réelle -->
+            <a href="mailto:contact.raccooncorp@gmail.com">contact.raccooncorp@gmail.com</a>
+          </div>
+
+          <div class="contact-card">
+            <div class="card-icon" style="margin: 0 auto 1rem;">🛡️</div>
+            <h4>Données Personnelles (RGPD)</h4>
+            <p style="margin-bottom: 0.75rem; color: var(--text-muted); font-size: 0.9rem;">
+              Demande de suppression de compte ou de données
+            </p>
+            <a href="privacy.html#data-deletion">Consulter la procédure de suppression</a>
+          </div>
+
+          <div class="contact-card">
+            <div class="card-icon" style="margin: 0 auto 1rem;">📜</div>
+            <h4>Mentions Légales</h4>
+            <p style="margin-bottom: 0.75rem; color: var(--text-muted); font-size: 0.9rem;">
+              Consultez nos conditions d'utilisation
+            </p>
+            <a href="terms.html">Voir les CGU</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pied de page -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-link">
+            <img src="assets/logo.svg" alt="Logo RaccoonCorp" class="brand-logo" />
+            <span>RaccoonCorp</span>
+          </a>
+          <p>
+            Studio indépendant de développement d'applications mobiles Android. Qualité, ergonomie et respect de la confidentialité.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Navigation</h5>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="#apps">Applications</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#contact">Contact & Support</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Légal & Conformité</h5>
+          <ul>
+            <li><a href="privacy.html">Politique de Confidentialité</a></li>
+            <li><a href="terms.html">Conditions d'Utilisation (CGU)</a></li>
+            <li><a href="privacy.html#data-deletion">Suppression des Données</a></li>
+            <li><a href="en/index.html">English Version (EN)</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; <span class="current-year"></span> <strong>RaccoonCorp</strong>. Tous droits réservés.
+        </div>
+        <div>
+          Conforme aux exigences pour développeur Google Play & RGPD.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

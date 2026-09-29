@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+    <linearGradient id="maskGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer glowing circle / rounded square -->
+  <rect x="5" y="5" width="90" height="90" rx="24" fill="url(#primaryGrad)" />
+  
+  <!-- Raccoon Head Shape -->
+  <path d="M 24 35 L 36 20 L 42 32 C 45 30 55 30 58 32 L 64 20 L 76 35 C 80 45 80 62 70 74 C 62 82 38 82 30 74 C 20 62 20 45 24 35 Z" fill="#F8FAFC" />
+  
+  <!-- Inner Ears -->
+  <path d="M 33 25 L 37 32 L 29 33 Z" fill="#CBD5E1" />
+  <path d="M 67 25 L 71 33 L 63 32 Z" fill="#CBD5E1" />
+  
+  <!-- Raccoon Dark Mask -->
+  <path d="M 26 44 C 33 42 42 45 48 51 C 52 51 60 42 74 44 C 77 53 74 63 67 67 C 58 70 54 62 50 60 C 46 62 42 70 33 67 C 26 63 23 53 26 44 Z" fill="url(#maskGrad)" />
+  
+  <!-- Eyes -->
+  <circle cx="37" cy="53" r="4.5" fill="#FFFFFF" />
+  <circle cx="63" cy="53" r="4.5" fill="#FFFFFF" />
+  <circle cx="38" cy="52.5" r="2.2" fill="#4F46E5" />
+  <circle cx="64" cy="52.5" r="2.2" fill="#4F46E5" />
+  
+  <!-- White Snout / Muzzle -->
+  <ellipse cx="50" cy="65" rx="10" ry="7" fill="#FFFFFF" />
+  
+  <!-- Nose -->
+  <polygon points="47,62 53,62 50,66" fill="#0F172A" />
+</svg>
